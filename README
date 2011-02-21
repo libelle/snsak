@@ -1,0 +1,20 @@
+I had a bad SimpleNote client delete a bunch of my notes, and then when I
+restored them, it created a whole lot of duplicates. Or maybe it wasn't a bad
+client, maybe it was user error -- regardless, I'll blame the software since
+it can't defend itself. So I needed to de-dupe all my notes.
+
+As it happens, I had been wanting to write a SimpleNotes tag to hashtag /
+hashtag to SimpleNotes tag program already. I'd also been wanting to play with
+Mongo a bit.
+
+So I took advantage of all of this, and put together my SimpleNotes Swiss Army
+Knife. It's PHP and comes with a command-line example.
+
+I slapped an MIT-license on it. If Simperium, Inc objects to that license,
+I'll happily change it to whatever is appropriate. You can get the code at
+https://github.com/libelle/snsak
+
+WARNING: THIS CODE IS BUGGY. IT COULD MARK ALL OF YOUR NOTES AS DELETED, OR
+FILL THEM WITH JUNK, OR CAUSE THEM TO RANT IN ALL CAPS. BACKUP YOUR NOTES
+BEFORE USING THE SCRIPT. I WILL NOT BE RESPONSIBLE FOR ANYTHING THAT HAPPENS
+IF YOU USE THIS CODE.
